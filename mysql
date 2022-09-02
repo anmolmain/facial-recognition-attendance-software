@@ -1,0 +1,22 @@
+show databases;
+use mini_projects;
+show tables;
+create table StudentDatabase(
+dep varchar(70),
+course varchar(70),
+yearN varchar(70),
+sem varchar(70),
+id varchar(70),
+nameN varchar(70),
+divN varchar(70),
+roll varchar(70),
+gender varchar(70),
+dob varchar(70),
+email varchar(70),
+phone varchar(70),
+address varchar(70),
+teacher varchar(70),
+photo varchar(70)
+);
+select * from studentdatabase;	
+delete from studentdatabase where stuid = 'p';
